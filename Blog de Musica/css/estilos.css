@@ -1,0 +1,148 @@
+/*fondo gris para toda la página*/
+body{
+    background-color: #BDBDBD;
+}
+/*estilos para el encabezado*/
+.encabezado{
+  background-color: #2E64FE;
+  width: 100%;
+  padding: 50px;
+  max-height: 250px;
+}
+/* estilos para el logo */
+.logo{
+  margin-left: 70px;
+  width: 50%;
+  padding: 10px;
+}
+/*estilos para contenedor padre de las redes sociales */
+.social{
+  width: 15%;
+  padding: 0px;
+}
+.redes{
+  padding: 150px;
+}
+/*estilos para los iconos de redes sociales*/
+img{
+  border-radius: 10px;
+}
+/*estilos para contenedor padre de la barra de navegación*/
+.navbar{
+  background-color: #FF8000;
+  font-style: italic;
+  font-size: 1.5em;
+  padding: 5px;
+}
+/*estilos para contenedores hijos del navbar*/
+.nav{
+  padding: 5px;
+}
+/*efecto para links del navbar*/
+.nav:hover{
+  background: rgba(255,255,255,0.3);
+}
+/*efecto saturación para iconos de redes sociales*/
+.social:hover{
+   filter: saturate(180%);
+}
+/*estilos para etiquetas h3*/
+h3{
+  font-style: italic;
+  text-align: left;
+}
+/*estilo para etiquetas span*/
+span{
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: justify;
+}
+/*estilos para contenedor padre del contenido*/
+.section1{
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+/*estilo para imagen Beatles*/
+.Beatles{
+  width: 100%;
+  padding: 15px;
+}
+/*estilo para imagenes planetas*/
+.Planetas{
+  width: 100%;
+  padding: 15px;
+}
+/*estilo para contenedor padre comentarios*/
+.coment{
+  padding: 10px;
+}
+.lista{
+  margin-top: 20px;
+}
+.glyphicon-user{
+  font-size: 35px;
+}
+.glyphicon-search{
+  font-size:20px;
+}
+@media (max-width: 770px) {
+  .logo{
+    width: 50%;
+    padding: 10px;
+  }
+  .encabezado{
+    background-color: #2E64FE;
+    width: 100%;
+    max-height: 400px;
+  }
+  .redes{
+    padding: 25px;
+  }
+  /*estilos para contenedor padre de las redes sociales */
+  .social{
+    width: 15%;
+    padding: 0px;
+  }
+  .navbar{
+    background-color: #FF8000;
+    font-style: italic;
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  /*estilos para contenedores hijos del navbar*/
+  .nav{
+    padding: 10px;
+  }
+  span{
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: justify;
+  }
+  /*estilos para contenedor padre del contenido*/
+  .section1{
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+  }
+  /*estilo para imagen Beatles*/
+  .Beatles{
+    width: 100%;
+    padding: 15px;
+  }
+  /*estilo para los iconos bootstrap*/
+  .glyphicon{
+    font-size: 35px;
+    padding: 10px;
+  }
+  /*estilo para imagenes planetas*/
+  .Planetas{
+    width: 100%;
+    padding: 15px;
+  }
+  /*estilo para contenedor padre comentarios*/
+  .coment{
+    padding: 10px;
+  }
+
+}

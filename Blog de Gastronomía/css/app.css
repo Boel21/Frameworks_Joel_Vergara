@@ -1,0 +1,65 @@
+.blog-gastronomia {
+  background: url(../imagenes/fondo.jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/*estlico color de fondo del contenedor principal*/
+.fondo{
+  background-color:rgba(36, 106, 219, 0.5);
+}
+/*color de fondo del encabezado*/
+.encabezado{
+  background-color: rgba(36, 106, 219, 0);
+}
+/*color de texto blanco para titulo y lema*/
+.titulo , .lema {
+  color:#fff;
+}
+/*estilos para separador hr vertical*/
+.vertical-hr{
+border: none;
+border-left: 1px solid hsla(360, 100%, 100%, 0.87);
+height: 25vh;
+width: 1px;
+}
+.img-pasta{
+  width: 60vh;
+}
+.favoritos, .Historial{
+  margin-top: 5vh;
+  color:#f66;
+}
+.buscador{
+  padding-left:15px;
+}
+.img-fav{
+  width: 100%;
+  height: 90%;
+}
+.fav-div{
+  width: 15vh;
+  height: 20vh;
+  padding: 5px;
+}
+.breadcrumbs-vertical{
+  list-style:none;
+}
+@media (max-width: 770px) {
+.coment{
+  margin-left: 10px;
+}
+.sub{
+  margin-right:15px;
+}
+.img-logo{
+  margin-right: 25px;
+  padding: 10px;
+}
+h1{
+  font-size: 40px;
+}
+}
